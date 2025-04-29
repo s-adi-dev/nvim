@@ -1,0 +1,23 @@
+{
+  "main": {
+    "prefix": "main",
+    "body": [
+      "def main():",
+      "    $1",
+      "",
+      "if __name__ == \"__main__\":",
+      "    main()"
+    ],
+    "description": "Defines a Python main function with an entry point check."
+  },
+  "try-except": {
+    "prefix": "tryex",
+    "body": [
+      "try:",
+      "    $1",
+      "except ${2:Exception} as e:",
+      "    print(f\"⚠️ Error: {e}\")"
+    ],
+    "description": "Try-except block for error handling"
+  }
+}
