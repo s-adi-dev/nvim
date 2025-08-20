@@ -18,6 +18,7 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
+require("configs.autocmds")
 local lazy_config = require("configs.lazy")
 
 -- load plugins
